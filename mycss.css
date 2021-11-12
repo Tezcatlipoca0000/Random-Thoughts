@@ -1,0 +1,103 @@
+html {
+	line-height: 1.8;
+	font-size: 2.5vh;
+	
+}
+
+hgroup h2,h1 {
+	padding: 0 1vw 0 1vw;
+	margin: 0;
+}
+
+hgroup h2 {
+	font-size: 2.3vh;
+}
+
+nav header {
+	border-bottom: solid;
+}
+
+section header h2 {
+	text-align: center;
+}
+
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	max-width: 25%;
+	border-right: solid;
+	overflow-y: scroll;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 5px 5px 5px black;
+	background-color: #ccc;
+}
+
+nav header a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin: 0 auto;
+	box-shadow: none;
+	background-color: #fff;
+}
+
+nav li {
+	color: #00f;
+	list-style-type: '>';
+	border-bottom: solid;
+	border-color: #000;
+	padding: 8px;
+}
+
+
+header hgroup {
+	text-align: center;
+	
+}
+
+main,footer {
+	margin-left: 25%;
+	margin-right: 1%;
+}
+
+footer {
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		max-width: 30%;
+	}
+
+	main,footer {
+		margin-left: 32%;
+	}
+
+	hgroup h1 {
+		font-size: 3.5vh;
+	}
+
+	a hgroup h2,h1 {
+		line-height: 1;
+	}
+
+	a hgroup h2 {
+		font-size: 2vh;
+	}
+}
